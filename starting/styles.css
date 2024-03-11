@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url("fonts/Merriweather-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "EB Garamond";
+    src: url("fonts/EBGaramond-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DM Serif Display";
+    src: url("fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family:"Merriweather", serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+/* Color Section */
+
+
+table {
+    border-spacing: 10px;
+    font-family: "EB Garamond";
+    font-size: 20px;
+}
+
+#color1 {
+    background-color: #FC6C85;
+    color: #FFF;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+}
+
+#color2 {
+    background-color: #FC8EAC;
+    color: #FFF;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+#color3 {
+    background-color: #FFD1DC;
+    color: #FFF;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+#color4 {
+    background-color: #FFC1CC;
+    color: #FFF;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+/* Fonts Section */
+.font1 {
+    font-family: "Merriweather";
+}
+
+h1.font1 > p {
+    font-family: "Merriweather";
+}
+
+.font2 {
+    font-family: "EB Garamond";
+}
+
+.font3 {
+    font-family: "DM Serif Display";
+}
+
+.ex2 {
+    font-weight: bold;
+}
+
+.ex3 {
+    font-style: italic;
+}
+
+/* Text Syles Section */
+.main {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Merriweather";
+}
+
+.sub {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "EB Garamond";
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "DM Serif Display";
+}
