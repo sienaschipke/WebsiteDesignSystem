@@ -76,16 +76,27 @@ table {
     font-family: "Merriweather";
 }
 
-h1.font1 > p {
-    font-family: "Merriweather";
+.font1 p {
+    font-family: "Merriweather", serif;
+    font-size: 15px;
 }
 
 .font2 {
     font-family: "EB Garamond";
 }
 
+.font2 p {
+    font-family: "EB Garamond", serif;
+    font-size: 15px;
+}
+
 .font3 {
     font-family: "DM Serif Display";
+}
+
+.font3 p {
+    font-family: "DM Serif Display", serif;
+    font-size: 15px;
 }
 
 .ex2 {
